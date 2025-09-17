@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Smart Education - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome, <span id="username"></span>!</h1>
+  <h2>Role: <span id="userrole"></span></h2>
+  <h3>Subject/Class: <span id="usersubject"></span></h3>
+
+  <div class="content-section">
+    <h2>Video Lessons</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div class="content-section">
+    <h2>Notes</h2>
+    <p>Math notes: Quadratic equations, Linear equations, etc.</p>
+  </div>
+
+  <div class="content-section">
+    <h2>AI Chatbot</h2>
+    <input type="text" id="question" placeholder="Ask a question...">
+    <button onclick="askQuestion()">Ask</button>
+    <div id="answer"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
