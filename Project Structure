@@ -1,0 +1,10 @@
+AI_Smart_Education/
+│
+├─ index.html      → Login page + Role selection
+├─ dashboard.html  → Role-based content page
+├─ style.css       → All CSS styles
+├─ script.js       → JS for login, dashboard, chatbot
+├─ chatbot.js      → AI chatbot logic
+├─ notes/          → PDF or text files for subjects
+├─ videos/         → YouTube links or embedded videos
+├─ images/         → Optional images
