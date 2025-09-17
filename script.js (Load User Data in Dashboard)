@@ -1,0 +1,6 @@
+// dashboard.html load event
+window.onload = function() {
+  document.getElementById("username").innerText = localStorage.getItem("name");
+  document.getElementById("userrole").innerText = localStorage.getItem("role");
+  document.getElementById("usersubject").innerText = localStorage.getItem("subject");
+}
